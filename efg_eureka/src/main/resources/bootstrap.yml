@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:9005  # 配置中心服务端地址
+      name: eureka      # 配置文件的应用名称
+      profile: dev    # 配置文件的环境名称
+      label: master   # 在远程仓库的分支名称
