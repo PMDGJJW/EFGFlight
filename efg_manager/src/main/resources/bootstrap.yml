@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://100.168.10.13:9005  # 配置中心服务端地址
+      uri: http://100.168.10.38:9005  # 配置中心服务端地址
       name: manager      # 配置文件的应用名称
       profile: dev    # 配置文件的环境名称
       label: master   # 在远程仓库的分支名称
